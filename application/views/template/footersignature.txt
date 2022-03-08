@@ -1,0 +1,112 @@
+<!-- footer -->
+
+<!-- <div class="row">
+    <div class="col-desk-12 col-md-12 col-sm-12">
+        <div class="footer-botom">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-desk-3 col-sm-3">
+                        <span class="text-title">Metro Multistore</span>
+                        <table class="footer-table">
+                            <tr>
+                                <td><img class="img-medium" src="<?=base_url()?>assets/icons/address.svg" alt=""></td>
+                                <td>Jl. Caman Raya No. 177, Jatibening, Pondok Gede, Bekasi Kota</td>
+                            </tr>
+                            <tr>
+                                <td><img class="img-medium" src="<?=base_url()?>assets/icons/phone-black.svg" alt=""></td>
+                                <td>Phone : (021) 850-5555</td>
+                            </tr>
+                            <tr>
+                                <td><img class="img-medium" src="<?=base_url()?>assets/icons/email-black.svg" alt=""></td>
+                                <td>metromultistore@metroreload.biz</td>
+                            </tr>
+                        </table>
+                        <span class="text-title">Temukan Kami di</span><br>
+                        <a class="social-media-link" href=""><img src="<?=base_url()?>assets/icons/facebook-logo.svg" alt=""></a>
+                        <a class="social-media-link" href=""><img src="<?=base_url()?>assets/icons/twitter-logo.svg" alt=""></a>
+                        <a class="social-media-link" href=""><img src="<?=base_url()?>assets/icons/youtube.svg" alt=""></a>
+                        <a class="social-media-link" href=""><img src="<?=base_url()?>assets/icons/instagram.svg" alt=""></a>
+                        <a class="social-media-link" href=""><img src="<?=base_url()?>assets/icons/linkedin-logo.svg" alt=""></a>
+                    </div>
+                    <div class="col-desk-3 col-sm-3">
+                        <span class="text-title">Product</span><br>
+                        <table class="table-product-footer">
+                            <tr><td><a class="text-footer-link" href="">Promotion</a></td></tr>
+                            <tr><td><a class="text-footer-link" href="">New Products</a></td></tr>
+                            <tr><td><a class="text-footer-link" href="">Best Sales</a></td></tr>
+                            <tr><td><a class="text-footer-link" href="">Login</a></td></tr>
+                            <tr><td><a class="text-footer-link" href="">My Account</a></td></tr>
+                        </table>
+                    </div>
+                    <div class="col-desk-3 col-sm-3">
+                        <span class="text-title">Our Company</span><br>
+                        <table class="table-product-footer">
+                            <tr><td><a class="text-footer-link" href="">Delivery</a></td></tr>
+                            <tr><td><a class="text-footer-link" href="">Legal Notice</a></td></tr>
+                            <tr><td><a class="text-footer-link" href="">Term And Conditions</a></td></tr>
+                            <tr><td><a class="text-footer-link" href="">About Us</a></td></tr>
+                            <tr><td><a class="text-footer-link" href="">Secure Payment</a></td></tr>
+                            <tr><td><a class="text-footer-link" href="">Contact Us</a></td></tr>
+                            <tr><td><a class="text-footer-link" href="">Store</a></td></tr>
+                        </table>
+                    </div>
+                    <div class="col-desk-3 col-sm-3">
+                        <span class="text-title">Our Company</span><br>
+                        <div class="footer-our-company">
+                            <span class="text-footer-link">Subscribe To Out Newsletter And Join Other</span><br>
+                            <form action="">
+                                <input class="input-email-subscribe" type="email" placeholder="Your email"><br>
+                                <div class="to-right">
+                                    <button class="subscribe-button">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                        <table>
+                            <tr>
+                                <td><span class="text-footer-link">Payment</span></td>
+                                <td>
+                                    <img class="img-small" src="<?=base_url()?>assets/icons/visa-pay-logo.svg" alt="">
+                                    <img class="img-small" src="<?=base_url()?>assets/icons/master-card-logo.svg" alt="">
+                                    <img class="img-small" src="<?=base_url()?>assets/icons/credit-card.svg" alt="">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+// function update_category(id)   {
+//   save_method = 'update';
+//   var image_name = $('#icon').val();
+//   if(image_name == '') {
+//    alert("Please Select Image");
+//    return false;
+//   } else {
+//    var extension = $('#icon').val().split('.').pop().toLowerCase();
+//     if(jQuery.inArray(extension, ['gif','png','jpg','jpeg','svg']) == -1) {
+//       alert("Invalid Image File");
+//       $('#icon').val('');
+//       return false;
+//     } else {
+//       $.ajax({
+//         url : "<?php //echo base_url('category/ajax_update/')?>"+id,
+//         type: "POST",
+//         data: $('#form-edit').serialize(),
+//         dataType: "JSON",
+//         success: function(data)  {
+//           location.reload();
+//
+//         },
+//         error: function (jqXHR, textStatus, errorThrown)
+//         {
+//             alert('Error update data with ajax');
+//         }
+//       });
+//     }
+//  }
+//
+// }
